@@ -1,0 +1,90 @@
+<html>
+
+<title>Thaumcraft Cheat Sheet</title>
+
+<head>
+	<link rel="stylesheet" type = "text/css" href="style.css">
+	<link rel="stylesheet" type = "text/css" href="ui.css">
+</head>
+
+<div class = "background" id = "bg_stars"></div>
+
+<div class = "background" id = "bg_left"></div>
+<div class = "background" id = "bg_right"></div>
+<div class = "background" id = "bg_top"></div>
+<div class = "background" id = "bg_bottom"></div>
+
+<div class = "background" id = "bg_corner_topleft"></div>
+<div class = "background" id = "bg_corner_topright"></div>
+<div class = "background" id = "bg_corner_bottomleft"></div>
+<div class = "background" id = "bg_corner_bottomright"></div>
+
+<body>
+	<div id = "inside">
+		<a href = "#top" id = "tophref" ><img src = "images/logo.png" id = "top"></img></a>
+		
+		<img class = "category" align = "right" width = "48" id = "category_traheremagy" src = "images/categories/category_traheremagy_deselected.png" title = "Traheremagy"></img>
+		<img class = "category" align = "right" width = "48" id = "category_apimancy" src = "images/categories/category_apimancy_deselected.png" title = "Apimancy"></img>
+		<img class = "category" align = "right" width = "48" id = "category_extras" src = "images/categories/category_extras_deselected.png" title = "Thaumcraft Extras"></img>
+		<img class = "category" align = "right" width = "48" id = "category_enchanting" src = "images/categories/category_enchanting_deselected.png" title = "Enchanting"></img>
+		
+		<img class = "category" align = "right" width = "48" id = "category_golemancy" src = "images/categories/category_golemancy_deselected.png" title = "Golemancy"></img>
+		<img class = "category" align = "right" width = "48" id = "category_artifice" src = "images/categories/category_artifice_deselected.png" title = "Artifice"></img>
+		<img class = "category" align = "right" width = "48" id = "category_alchemy" src = "images/categories/category_alchemy_deselected.png" title = "Alchemy"></img>
+		<img class = "category" align = "right" width = "48" id = "category_thaumaturgy" src = "images/categories/category_thaumaturgy_deselected.png" title = "Thaumaturgy"></img>
+		<img class = "category" align = "right" width = "48" id = "category_basic" src = "images/categories/category_basic_selected.png" title = "Basic Information"></img>
+		<img class = "category" align = "right" width = "48" id = "category_aspects" src = "images/categories/category_aspects_deselected.png" title = "Basic Information"></img>
+		
+		<br>
+		<b>Mods: </b><a href = "http://www.minecraftforum.net/topic/2011841-"><u>TC</u></a><abbr title = "Show Thaumcraft Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "thaumcraft" id = "cb_thaumcraft"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/1813058-"><u>TT</u></a><abbr title = "Show Thaumic Tinkerer Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "thaumic_tinkerer" id = "cb_thaumic_tinkerer"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/2079654-"><u>AT</u></a><abbr title = "Show Advanced Thaumaturgy Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "advanced_thaumaturgy" id = "cb_advanced_thaumaturgy"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/2092605-"><u>TE</u></a><abbr title = "Show Thaumcraft Extras Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "thaumcraft_extras" id = "cb_thaumcraft_extras"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/1627856-"><u>MB</u></a><abbr title = "Show Magic Bees Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "magic_bees" id = "cb_magic_bees"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/2196652-"><u>EM</u></a><abbr title = "Show Electric Magic Tools Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "electric_magic_tools" id = "cb_electric_magic_tools"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/2162980-"><u>TG</u></a><abbr title = "Show ThaumcraftGates Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "thaumcraft_gates" id = "cb_thaumcraft_gates"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/1966021-"><u>PB</u></a><abbr title = "Show Player Beacons Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "player_beacons" id = "cb_player_beacons"></abbr>
+		| <a href = "http://railcraft.wikispaces.com/"><u>RC</u></a><abbr title = "Show RailCraft Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "railcraft" id = "cb_railcraft"></abbr>
+		| <a href = "http://www.minecraftforum.net/topic/1548203-"><u>BS</u></a><abbr title = "Show BetterStorage Research"> <input type = "checkbox" class = "mod_cb" name = "mod" value = "better_storage" id = "cb_better_storage"></abbr>
+
+		<br><hr>
+		<div id = "input">
+			<input type = "text" id = "searchBar" size = "100"></input>
+			<button id = "clear">Clear</button>
+			<hr>
+		</div>
+		<div id = "text" class = "smallMargin">
+			basic
+		</div>
+		<div id = "footer">
+			<hr>
+			<p align = "center">
+				<b>The Thaumcraft Cheat Sheet</b><br>
+				Minecraft: <b>Mojang</b> - Thaumcraft: <b>Azanor</b> - Guides: <b>Succubism</b> - Code/Design: <b>Vazkii</b> - Icons: <b>LycaonX</b><br><br>
+				<font size = "2">This is an unofficial guide used without permission of the modmakers - all imagery provided are created from screenshots of the mod in use. All links provided follow the ToS and will not use profiteering third party sources such as Adfly. All mods and sources belong to their respective authors.</font><br><br>
+				This website is licensed under a <a href = "http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB">CC-BY-NC-SA 3.0 License</a>. It is available at <a href = "https://github.com/Vazkii/TCCheatSheet">GitHub</a>, contribute to the project!
+				<br><br>
+				<a href = "#top">(Back to top)</a>
+			</p>
+		</div>
+	</div>
+	
+	<script src = "http://code.jquery.com/jquery-1.9.1.js"></script>   
+	<script src = "jquery_ui.js"></script>
+	<script src = "jquery_cookie.js"></script>
+	<script src = "jquery_watermark.js"></script>
+
+	<script type = "text/javascript" src = "aspects.js"></script>
+	<script type = "text/javascript" src = "research/basic.js"></script>
+	<script type = "text/javascript" src = "research/thaumaturgy.js"></script>
+	<script type = "text/javascript" src = "research/alchemy.js"></script>
+	<script type = "text/javascript" src = "research/artifice.js"></script>
+	<script type = "text/javascript" src = "research/golemancy.js"></script>
+	<script type = "text/javascript" src = "research/enchanting.js"></script>
+	<script type = "text/javascript" src = "research/extras.js"></script>
+	<script type = "text/javascript" src = "research/apimancy.js"></script>
+	<script type = "text/javascript" src = "research/traheremagy.js"></script>
+	
+	<script type = "text/javascript" src = "guide.js"></script>
+</body>
+</html>

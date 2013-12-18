@@ -1,0 +1,76 @@
+body {
+	margin-top: 34px;
+	margin-bottom: 36px;
+	margin-left: 34px;
+	margin-right: 34px;
+	overflow: hidden;
+}
+
+hr {
+	background: url(images/hr.png) no-repeat top center;
+	height:14px;
+	border:none;
+}
+
+.background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.smallMargin {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#inside {
+	overflow-y: auto;
+	height: 100%
+}
+
+#bg_stars {
+	background: url(images/back.png) no-repeat 0 0;
+	background-size: cover;
+}
+
+#bg_left {
+	background: url(images/bgLeft.png) repeat-y 0 33;
+}
+
+#bg_right {
+	background: url(images/bgRight.png) repeat-y 100% 33;
+}
+
+#bg_top {
+	background: url(images/bgTop.png) repeat-x 31 0;
+}
+
+#bg_bottom {
+	background: url(images/bgBottom.png) repeat-x 31 100%;
+}
+
+#bg_corner_topleft {
+	background: url(images/corner0.png) no-repeat 0 0;
+}
+
+#bg_corner_topright {
+	background: url(images/corner1.png) no-repeat 100% 0;
+}
+
+#bg_corner_bottomleft {
+	background: url(images/corner2.png) no-repeat 0 100%;
+}
+
+#bg_corner_bottomright {
+	background: url(images/corner3.png) no-repeat 100% 100%;
+}
