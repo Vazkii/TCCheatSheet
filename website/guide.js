@@ -223,7 +223,7 @@ function setAspect(aspect, setHash) {
 		text += aspects[aspect].component1 + " + " + aspects[aspect].component2;
 	}
 	
-	text += "</p>";
+	text += "</p><div id = 'aspectPath' align='center'><u>(Click to show possible creation path)</u></div>";
 	
 	if(setHash)
 		document.location.hash = "aspects_" + aspect;
@@ -327,6 +327,27 @@ $(document).on("keyup", "#searchBar", function(event) {
 $(document).on("click", "#clear", function() {
 	clearSearch();
 });
+
+$(document).on("click", "#aspectPath", function() {
+	var text = "<hr><b>Possible Creation Path:<br>";
+		
+	text = addAspectRecipeToText(currentAspect, text);
+	
+	$("#aspectPath").html(text);
+});
+
+function addAspectRecipeToText(aspect, text) {
+	if(aspects[aspect].type === "primal")
+		return text;
+	text += "<br>";
+	
+	text += aspectImg(aspects[aspect].component1, 32, 32) + " + " + aspectImg(aspects[aspect].component2, 32, 32) + " = " + aspectImg(aspect, 32, 32);
+ 	
+	text = addAspectRecipeToText(aspects[aspect].component1, text);
+	text = addAspectRecipeToText(aspects[aspect].component2, text);
+	
+	return text;
+}
 
 $(document).keyup(function(event) {
 	if(event.keyCode == 27)
