@@ -221,10 +221,10 @@ function setAspect(aspect, setHash) {
 	else { 
 		text += aspectImg(aspects[aspect].component1, 32, 32) + "   " + aspectImg(aspects[aspect].component2, 32, 32) + "<br>";
 		text += aspects[aspect].component1 + " + " + aspects[aspect].component2;
+		
+		text += "</p><div id = 'aspectPath' align='center'><u>(Click to show possible creation path)</u></div>";
 	}
-	
-	text += "</p><div id = 'aspectPath' align='center'><u>(Click to show possible creation path)</u></div>";
-	
+
 	if(setHash)
 		document.location.hash = "aspects_" + aspect;
 	
