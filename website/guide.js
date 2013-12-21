@@ -180,6 +180,10 @@ function appendResearchToText(research, text) {
 		
 	text += "<br>" + researchObj.description.replaceAll("<hr>", "<p align='center'>-----</p>") + "<br><br>";
 	
+	var video = researchObj.video;
+	if(video.length != 0)
+		text += "<b><a href = '" + video + "'>(Video Preview)</a></b><br>";
+	
 	var requirements = researchObj.requirements;
 	if(requirements.length != 0) {
 		text += "<b>Requirements: ";
@@ -194,6 +198,7 @@ function appendResearchToText(research, text) {
 		}
 		text += "</b><br><br>";
 	}
+	
 	text += "<font size = '2'><a class = 'permalink' href='" + document.location.href.split("#")[0] + "#" + currentCategory + ":" + researchObj.name.toLowerCase().replaceAll(" ", "_") + "'>(permalink)</a>";
 	text += " - <a href='#top'>(back to top)</a></font>";
 	
