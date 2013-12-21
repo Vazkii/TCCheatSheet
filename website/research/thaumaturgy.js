@@ -342,7 +342,7 @@ var research_thaumaturgy = [
 		lore: "Is this what they use in ALfheim?",
 		mod: "thaumic_tinkerer",
 		aspects: [ "Aer", "Motus", "Praecantatio" ],
-		requirements: [ "thaumaturgy:Wand Focus Shock", "artifice:Sword of the Zephyr" ],
+		requirements: [ "thaumaturgy:Wand Focus: Shock", "artifice:Sword of the Zephyr" ],
 		recipes: {
 			Wand_Focus_Uprising: "http://puu.sh/4TXCK.jpg"
 		},
