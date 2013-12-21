@@ -203,5 +203,72 @@ var research_basic = [
 		nature: "Aspect Accumulator",
 		description: "There comes a point in any thaumaturge's career where he is unable to progress with research due to his lack of knowledge.<br>One possible recourse is the Deconstruction Table. The table allows you to break down objects into their smallest parts which you can examine. There are limits however - the table breaks compound aspects into their component aspects until only primal aspects remain. During this process much knowledge is lost and at best the thaumaturge can hope for is a single piece of primal knowledge.<br>For example cobblestone (saxum and perditio) will be simplified into 2 terra and 1 perditio, only one of which having a chance of being discovered.<br>It is also fairly slow and the fewer aspects and object has, the lower the chance to discover something."
 	},
+    
+    {
+		name: "Computercraft Peripherals",
+		lore: "When technology meets magic",
+		mod: "thaumic_tinkerer",
+		aspects: [],
+		requirements: [],
+		recipes: {},
+		nature: "ComputerCraft Compatability",
+		description: "Thaumic Tinkerer allows for some of the blocks that it adds, alongside some vanilla Thaumcraft blocks, to be used as ComputerCraft peripherals.<br>For convenience sake, the method documentation for these peripherals is in an external webpage. Pressing ENTER right now will take you to it."
+	},
+    
+    {
+		name: "Aspectalyzer",
+		lore: "Computerized Scanning",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Cognitio", "Machina", "Sensus" ],
+		requirements: [ "basic:Computercraft Peripherals" ],
+		recipes: { 
+            Aspectalyzer: "http://puu.sh/5RFVe.jpg" 
+        },
+		nature: "ComputerCraft Peripheral",
+		description: "You created a device that allows Computers to know what aspects an item has.<br>This block acts like a normal inventory, any items in it can be scanned by use of a Computer. Visit the peripheral documentation entry for more info."
+	},
+    
+    {
+		name: "Dimensional Theory",
+		lore: "One second I'm here, next second I'm there!",
+		mod: "player_beacons",
+		aspects: [],
+		requirements: [],
+		recipes: { },
+		nature: "Dimension introduction",
+		description: "There are 3 known dimensions in Minecraft: The Nether, The Overworld and The End. Each have their own unique properties and creatures. Blazes lurk deep in the Nether fortresses, guarding them from unwanted guests. Enderman patrol the End, guarding their master, the Ender Dragon. Zombie Skeletons and Creepers roam the Overworld at night. All very different and with their own unique properties."
+	},
+    
+    {
+		name: "Beacons",
+		lore: "It's like an inside out TARDIS",
+		mod: "player_beacons",
+		aspects: [ "Alienis", "Spiritus" ],
+		requirements: [ "artifice:Infusion" ],
+		recipes: { 
+            Player_Beacon: "http://puu.sh/5NpP3.jpg",
+            Defiled_Soul_Conductor: "http://puu.sh/5NpQf.jpg"
+        },
+		nature: "Beacon Creation",
+		description: "Your study into The End has allowed you a way to modify a beacon to allow it to transpose buffs onto you no matter where you are in the same dimension but at a cost. By binding your soul to this beacon, it can affect you in the same dimension as it is bound to meaning you are able to give yourself powers and buffs you wouldn't have before. However you have noted that you are unable to control it's power directly. The beacon taps straight into the heart of The End, pulling at it's power, corrupting your soul.<br><br><img src='http://puu.sh/5NpqL.jpg'></img><br><i>An example beacon setup</i><br><br><b><u>Corruption</b></u><br>A nasty side effect of using the beacons power, Corruption eats away at your soul which is bound in the beacon. It's effects are mostly unknown as the people who have suffered from it have mysteriously disappeared however in the time they were still around, they have reported being hunted by slender figures and often suffered from dizziness and temporary blindness. No wards or potions can cure or prevent it as the soul itself was effected."
+	},
+    
+    {
+		name: "Crystals",
+		lore: "Careful, they're sharp!",
+		mod: "player_beacons",
+		aspects: [ "Permutatio", "Vinculum", "Vitreus" ],
+		requirements: [ "basic:Beacons" ],
+		recipes: {
+            Pylon: "http://puu.sh/5NpS1.jpg",
+            Depleted_Crystal: "http://puu.sh/5NpTo.jpg",
+            Brown_Crystal: "http://puu.sh/5NpUo.jpg",
+            Green_Crystal: "http://puu.sh/5NpVt.jpg",
+            Light_Blue_Crystal: "http://puu.sh/5NpWz.jpg",
+            Black_Crystal: "http://puu.sh/5NpZr.jpg"
+        },
+		nature: "Beacon Power Amplifier",
+		description: "Further study of the beacon and it's effects has allowed to find a way to 'throttle' the effects of the beacon. By placing pylons in the bottom corners of beacon pyramid and stacking them then inserting a crystal into the port, it throttles how much power is allowed through the beacon. Every crystal is different meaning some are more effective at throttling certain effects than others. Crystals don't last forever however and need to be replaced every few days."
+	},
 
 ];
