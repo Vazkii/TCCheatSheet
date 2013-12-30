@@ -292,5 +292,19 @@ var research_basic = [
 		video: "",
 		description: "Further study of the beacon and it's effects has allowed to find a way to 'throttle' the effects of the beacon. By placing pylons in the bottom corners of beacon pyramid and stacking them then inserting a crystal into the port, it throttles how much power is allowed through the beacon. Every crystal is different meaning some are more effective at throttling certain effects than others. Crystals don't last forever however and need to be replaced every few days."
 	},
+	
+	{
+		name: "Node Modifier",
+		lore: "They're not all bad...",
+		mod: "advanced_thaumaturgy",
+		aspects: [ "Auram", "Praecantatio", "Sensus" ],
+		requirements: [ "basic:Node in a Jar" ],
+		recipes: {
+			Node_Modifier: "http://puu.sh/61xYX.jpg"
+		},
+		nature: "Aura Node Manipulator",
+		video: "",
+		description: "After intently studying and experimenting with the relationship between vis and essentia, you have deduced a method to change the very nature of aura nodes. Simple place the proper type of essentia nearby, place a jarred node on top of the modifier, and tap with a wand.<hr>''I knew it! They are not all lost! While the practice of jarring nodes more often than not tends to waken them to the point of being nearly useless, they are still salvagable, albeit with massive amounts of essentia. I find that Granum tends to quell a hungry node, while Lux will brighten both a pale node back to normal, as well as a normal node to bright. It will also chase away the darkness inside a Dark node. Tainted nodes can be clensed with ordo, and it also strengthens a fading node back to normal. I suspect that with more work, I can expend a node's max capacity. Brilliant!''"
+	},
 
 ];

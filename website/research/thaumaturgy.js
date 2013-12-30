@@ -342,12 +342,124 @@ var research_thaumaturgy = [
 		lore: "Is this what they use in ALfheim?",
 		mod: "thaumic_tinkerer",
 		aspects: [ "Aer", "Motus", "Praecantatio" ],
-		requirements: [ "thaumaturgy:Wand Focus: Shock", "artifice:Sword of the Zephyr" ],
+		requirements: [ "thaumaturgy:Wand Focus Shock", "artifice:Sword of the Zephyr" ],
 		recipes: {
 			Wand_Focus_Uprising: "http://puu.sh/4TXCK.jpg"
 		},
 		nature: "THRRRRUST!",
 		video: "http://youtu.be/SrF-jWmwT3c?t=1m25s",
 		description: "Using the knowledge you got from creating the sword of the Zephyr of propelling things around with air, you created a wand focus that will propel the holder in the direction that they're looking at.<br>When someone is propelled through the use of this focus, any accumulated gravitational energy is negated, reseting the fall damage the holder would take."
-	}
+	},
+	
+	{
+		name: "Wand Focus: Dislocation",
+		lore: "Build the castle within your mind so it never falls down",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Alienis", "Permutatio", "Praecantatio" ],
+		requirements: [ "thaumaturgy:Wand Focus: Equal Trade" ],
+		recipes: {
+			Wand_Focus_Dislocation: "http://puu.sh/61vlu.jpg"
+		},
+		nature: "Block mover",
+		video: "",
+		description: "You created a wand focus based on the focus of equal trade. The difference is that this one not only holds the object's fingerprint, but it holds the object itself, allowing it to be placed elsewhere.<br>Toget a block to transport, right click on it. To place it back, right click somewhere else. This focus can transport pretty much anything, including chests and mob spawners.<br>The vis cost is applied in picking up the block. Placing it down is free.<br>Due to the amount of energy required for the dislocation, blocks with tile entities (such as chests and furnaces) cost 5x the amount of vis as normally. Mob spawners, in particular, cost 20x instead."
+	},
+	
+	{
+		name: "Wand Focus: Distortion",
+		lore: "I'm not an Angel",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Aer", "Mortuus", "Motus", "Ordo" ],
+		requirements: [ "thaumaturgy:Wand Focus: Uprising" ],
+		recipes: {
+			Wand_Focus_Distortion: "http://puu.sh/5Nq6i.jpg"
+		},
+		nature: "Projectile Blocker",
+		video: "",
+		description: "You created a focus to protect you from incoming fire.<br>This focus, when in use, will constantly drain vis from the wand it's inserted on, in order to summon a ward around the caster, making ordinary projectiles pass through them harmlessly.<br>Ordinary projectiles include arrows, snowballs or potions. It seems the ward is not strong enough to displace stronger attacks, like fireballs or wither heads."
+	},
+	
+	{
+		name: "Wand Focus: Telekinesis",
+		lore: "Beats gravity bubbles any day",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Alienis", "Motus", "Praecantatio" ],
+		requirements: [ "thaumaturgy:Wand Focus: Dislocation" ],
+		recipes: {
+			Wand_Focus_Telekinesis: "http://puu.sh/4TYBM.jpg"
+		},
+		nature: "Projectile Blocker",
+		video: "",
+		description: "You created a focus to protect you from incoming fire.<br>This focus, when in use, will constantly drain vis from the wand it's inserted on, in order to summon a ward around the caster, making ordinary projectiles pass through them harmlessly.<br>Ordinary projectiles include arrows, snowballs or potions. It seems the ward is not strong enough to displace stronger attacks, like fireballs or wither heads."
+	},
+
+	{
+		name: "Wand Focus: Efreets Flame",
+		lore: "Ribbons wont make a different",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Ignis", "Potentia", "Praecantatio" ],
+		requirements: [ "thaumaturgy:Wand Focus: Excavation" ],
+		recipes: { 
+			Wand_Focus_Efreets_Flame: "http://puu.sh/56x2P.jpg"
+		},
+		nature: "Auto-Smelting Excavation Focus",
+		video: "",
+		description: "By combining the flame and excavation foci, you have made one that has features from both.<br>This focus will smelt any blocks in the world that the caster is pointing at, akin to the excavation focus' beam. Only blocks that smelt into other blocks in a mundane furnace will be smelted."
+	},
+	
+	{
+		name: "Wand Focus: Mending",
+		lore: "Bandages, Voids and Feels",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Praecantatio", "Sano", "Spiritus" ],
+		requirements: [ "thaumaturgy:Wand Focus: Portable Hole" ],
+		recipes: {
+			Wand_Focus_Mending: "http://puu.sh/5sOAA.jpg"
+		},
+		nature: "Healing Focus",
+		video: "",
+		description: "You know Pech carry powerful foci that can induce diseases, with that, you devised a way to use them to your benefits.<br>This focus will slowly mend the caster's wounds as they're using it, using vis from the wand in the process."
+	},
+	
+	{
+		name: "Wand Focus: Ender Rift",
+		lore: "a pocket to the fourth dimension",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Alienis", "Praecantatio", "Vacuos" ],
+		requirements: [ "thaumaturgy:Wand Focus: Portable Hole" ],
+		recipes: { 
+			Wand_Focus_Ender_Rift: "http://puu.sh/5sODG.jpg"
+		},
+		nature: "Ender Chest GUI Focus",
+		video: "",
+		description: "By combining a Hand Mirror with a portable hole, you managed to construct a focus that tears a rift in the ender, allowing you to access the contents of your Ender Chest remotely."
+	},
+	
+	{
+		name: "Mercurial Rod",
+		lore: "Five, five, five rods in one!",
+		mod: "advanced_thaumaturgy",
+		aspects: [ "Arbor", "Metallum", "Sensus", "Venenum" ],
+		requirements: [ "thaumaturgy:Silverwood Wand Core" ],
+		recipes: { 
+			Mercurial_Rod: "http://puu.sh/5wFFo.jpg"
+		},
+		nature: "End-Game wand material",
+		video: "",
+		description: "You've discovered a way to infuse a nether star, liquid quicksilver and the essence of multiple silverwood wand cores into a new core that can hold much larger amounts of vis.<hr>''What a delightful find! The Wither had in it's possession (I avoid thinking about what it's made of exactly) an intricate, beautiful crystal of some sort. After peering through my Thaumometer at this jewel for days on end, I discovered a way to infuse the crystal and several silverwood cores, along with some quicksilver, into a remarkable wand core capable of storing vast amounts of vis.''"
+	},
+	
+	{
+		name: "Mercurial Crystal Wand",
+		lore: "(Almost) all the vis!",
+		mod: "advanced_thaumaturgy",
+		aspects: [],
+		requirements: [ "thaumaturgy:Mercurial Rod" ],
+		recipes: { 
+			Mercurial_Crystal_Wand: "http://puu.sh/5wFN8.jpg"
+		},
+		nature: "End-Game Wand",
+		video: "",
+		description: "The fruits of long hours of experimenting, resource collecting and a significantly amount of flux goo and gas cleanup, explosions, lightning zaps and disintegrated caps gleams before you in all it's remarkable glory. The Mercurial Wand, capable of storing enough vis to last the entire day. Not only that, the wand can be enhanced and upgraded via various other infusion recipes.<hr>''At last, it is done, and it is a breathtaking thing to behold. Sunlight glints off the gleaming crystal rand, and reflects sharply off the solidified quicksilver inlaid in intricate patterns upon the handle. I am the envy of thaumaturgists everywhere, but I will not hoard this knowledge to myself. Discoveries such as this can benefit everyone, and I am no knowledge hoarder.''"
+	},
 ];
