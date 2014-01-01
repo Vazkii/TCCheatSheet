@@ -14,7 +14,7 @@ var categories = {
 var mods = {
  thaumcraft: true,
  thaumic_tinkerer: true,
- thaumic_tinkerer_kami: true
+ thaumic_tinkerer_kami: true,
  advanced_thaumaturgy: true,
  thaumic_exploration: true,
  thaumcraft_extras: true,
