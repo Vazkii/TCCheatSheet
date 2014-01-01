@@ -14,7 +14,9 @@ var categories = {
 var mods = {
  thaumcraft: true,
  thaumic_tinkerer: true,
+ thaumic_tinkerer_kami: true
  advanced_thaumaturgy: true,
+ thaumic_exploration: true,
  thaumcraft_extras: true,
  magic_bees: true, 
  electric_magic_tools: true, 
@@ -27,7 +29,9 @@ var mods = {
 var modShortTerms = {
  thaumcraft: "",
  thaumic_tinkerer: "[TT]",
+ thaumic_tinkerer_kami: "[TK]",
  advanced_thaumaturgy: "[AT]",
+ thaumic_exploration: "[TX]",
  thaumcraft_extras: "[TE]",
  magic_bees: "[MB]", 
  electric_magic_tools: "[EM]", 
@@ -40,7 +44,9 @@ var modShortTerms = {
 var modResearchTooltips = {
  thaumcraft: "",
  thaumic_tinkerer: "This research entry comes from the Thaumic Tinkerer addon",
+ thaumic_tinkerer_kami: "This research entry comes from the KAMI module of the Thaumic Tinkerer addon",
  advanced_thaumaturgy: "This research entry comes from the Advanced Thaumaturgy addon",
+ thaumic_exploration: "This research entry comes from the Thaumic Exploration addon",
  thaumcraft_extras: "This research entry comes from the Thaumcraft Extras addon",
  magic_bees: "This research entry comes from the Magic Bees addon", 
  electric_magic_tools: "This research entry comes from the Electric Magic Tools addon", 
