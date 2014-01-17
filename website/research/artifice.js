@@ -945,5 +945,29 @@ var research_artifice = [
 		video: "",
 		description: "While using Celestial Gateways for teleportation is all well and good, you decided to take it a step further and create a focus that allows you to do just that, but from anywhere.<br>This focus, in the presence of a properly bound Celestial Pearl in the caster's hotbar, will, after a short cast time, teleport the caster to that position, just as if they had used a Celestial Gateway. Of course, this comes at a vis cost."
 	},
+	
+	{
+	        name: "Warded Blocks",
+                lore: "Return, my love",
+                mod: "thaumcraft_extras",
+                aspects: [ "Praecantatio", "Perfodio", "Victus", "Saxum"],
+                requirements: ["artifce:Arcane Stone"],
+                recipes: {},
+                nature: "Blocks only the one who placed them can remove, there are multiple type's of Warded Blocks with all of them 16 colors",
+                video: "",
+                description: "This blocks will make sure your safe. This block can only be broken by the one who placed this block. This makes it the best way to secure your base."
+        },
+        
+        {
+	        name: "Magic Energy,
+                lore: "Infused with thunder",
+                mod: "thaumcraft_extras",
+                aspects: [ "Praecantatio", "Perfodio", "Permutatio", "Saxum", "Sensus"],
+                requirements: ["artifce:Warded Blocks"],
+                recipes: {},
+                nature: "A magic energy system",
+                video: "",
+                description: "After researching hour after hour you found a way to convert items to magic energy and use this energy in magic devices."
+        }
 
 ];
