@@ -53,5 +53,16 @@ function loadAspects() {
 	aspects["Machina"] = { name: "Machina", type: "compound", component1: "Motus", component2: "Instrumentum", desc: "Mechanism, Machine", mod: "thaumcraft" };
 	aspects["Vinculum"] = { name: "Vinculum", type: "compound", component1: "Motus", component2: "Perditio", desc: "Trap, Imprison", mod: "thaumcraft" };
 	aspects["Permutatio"] = { name: "Permutatio", type: "compound", component1: "Motus", component2: "Aqua", desc: "Exchange, Barter", mod: "thaumcraft" };
+	
+	// Magic Bees
 	aspects["Tempus"] = { name: "Tempus", type: "compound", component1: "Vacuos", component2: "Ordo", desc: "Time", mod: "magic_bees" };
+	
+	// Infernal Magic
+	aspects["Infernus"] = { name: "Infernus", type: "compound", component1: "Ignis", component2: "Praecantatio", desc: "The Nether, Demons, Hellfire", mod: "forbidden_magic" };
+	aspects["Ira"] = { name: "Ira", type: "compound", component1: "Telum", component2: "Ignis", desc: "Wrath, Anger", mod: "forbidden_magic" };
+	aspects["Invidia"] = { name: "Invidia", type: "compound", component1: "Sensus", component2: "Fames", desc: "Envy, Jealousy, Insecurity", mod: "forbidden_magic" };
+	aspects["Gula"] = { name: "Gula", type: "compound", component1: "Fames", component2: "Fames", desc: "Gluttony, Consumption, Indulgence", mod: "forbidden_magic" };
+	aspects["Superbia"] = { name: "Superbia", type: "compound", component1: "Volatus", component2: "Vacuos", desc: "Pride, Arrogance, Disdain", mod: "forbidden_magic" };
+	aspects["Desidia"] = { name: "Desidia", type: "compound", component1: "Vinculum", component2: "Spiritus", desc: "Sloth, Laziness, Procrastination", mod: "forbidden_magic" };
+	aspects["Luxuria"] = { name: "Luxuria", type: "compound", component1: "Corpus", component2: "Fames", desc: "Lust, Desire, Excess", mod: "forbidden_magic" };
 }
