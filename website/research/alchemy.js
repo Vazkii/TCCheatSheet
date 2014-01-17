@@ -383,5 +383,19 @@ var research_alchemy = [
 		video: "",
 		description: "This pipe cannot be used as a normal BuildCraft pipe, it will not transport items, fluids or energy. It does not transport anything as a matter of fact. But its uses are plenty!<br>This pipe connects only to aspect containers. It cannot pull the aspects out, but it allows you to measure them using gates. If the container has more than one aspect, the pipe will measure the most abundant one. Or, you can force the pipe to measure a specific aspect by setting a filter. Playing any aspect container items on the filter will force the pipe to measure only the aspect present in that item and ignore all others."
 	},
+	
+	{
+		name: "Flesh Purification",
+		lore: "Mystical Cleansing",
+		mod: "thaumic_exploration",
+		aspects: [ "Ordo", "Permutatio", "Tutamen" ],
+		requirements: [ "alchemy:Magic Tallow" ],
+		recipes: { 
+			Leather: "http://puu.sh/66MhT.jpg"
+		},
+		nature: "Rotten Flesh to Leather recipe",
+		video: "",
+		description: "By imbuing rotten flesh with certain aspects, you have found that you are able to remove nearly all traces of disease and decomposition from the flesh, rendering it much more useful. Although this discovery may not be particularly useful, you are sure it will lead to exciting things."
+	},
 
 ];

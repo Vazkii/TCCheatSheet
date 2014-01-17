@@ -547,5 +547,403 @@ var research_artifice = [
 		video: "",
 		description: "Infusing a backpack with magic and materials of magical nature will increase its overall durability and storage capacity. Thanks to the upgrade, it'll be able to accept enchantments more easily, including the repair enchantment. As long as the backpack has the repair enchantment, items inside it will be able to repair as well, at a slower rate.<br>A similar thing is possible with a reinforced iron chest and a bunch of thaumium, which will result in a more durable chest which can also store more items."
 	},
+	
+	{
+		name: "Ethereal Platform",
+		lore: "Hide the Bromine and Barium",
+		mod: "thaumic_tinkerer",
+		aspects: [ "Arbor", "Motus", "Sensus" ],
+		requirements: [ "artifice:Arcane Levitator" ],
+		recipes: { 
+			Ethereal_Platform: "http://puu.sh/65SDq.jpg"
+		},
+		nature: "Elevator Platform",
+		video: "",
+		description: "You devised a block that is only solid for anyone standing on top of it. This block does not have a collision box for anyone who doesn't meet that criteria or is sneaking.<br>You can also camoflauge this block as any other by simply clicking on it.<br>You think you can use this with the Arcane Levitator for some interesting effects."
+	},
+	
+	{
+		name: "Ichor",
+		lore: "Blood of the Gods",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Humanus", "Lux", "Spiritus", "Vitium" ],
+		requirements: [],
+		recipes: { 
+			Ichor: "http://puu.sh/65UMd.jpg"
+		},
+		nature: "End-Game Magical Crafting Material",
+		video: "",
+		description: "Through extensive study in all subjects of thaumaturgy you have discovered a substance that is what you consider to be the next step in your endeavors.<br>This extremely powerful substance, which you call ''Ichor'' contains the raw awakened power of a nether star.<br>You are sure you will be able to put it to use for countless devices in the future."
+	},
+	
+	{
+		name: "Ichorcloth",
+		lore: "Life Fiber Synchronization",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Fabrico", "Lux", "Pannus", "Sensus" ],
+		requirements: [ "artifice:Ichor" ],
+		recipes: { 
+			Ichorcloth: "http://puu.sh/65VeO.jpg"
+		},
+		nature: "End-Game Magical Crafting Material",
+		video: "",
+		description: "You found a way of infusing Magical Fabric with your latest discovery, Ichor. Funilly enough, this process does not require the typical infusion procedure, as the Ichor easily absorbs the diamond and blends with the fabric.<br>However, to do this, you require not only the best wand you ever designed to be fully charged, but you must also be wearing a full set of thaumaturges robes, in order to convey enough energy for the creation.<br>You think it's time you start designing a new wand."
+	},
+	
+	{
+		name: "Ichorium",
+		lore: "Not from the 55th Floor",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Fabrico", "Instrumentum", "Lux", "Metallum" ],
+		requirements: [ "artifice:Ichor" ],
+		recipes: { 
+			Ichorium: "http://puu.sh/65W9R.jpg"
+		},
+		nature: "Magical Crafting Material",
+		video: "",
+		description: "More endeavours with Ichor reveal it's property to blend with most mundane materials. Most of the blends result in absolutely nothing, however, you have managed to blend it with diamonds and fabric in the past, and this time, with thaumium.<br>This metal is extremely strong and resillient, to a point where mundane materials could never get. You have found any uses for it yet, but you know it shouldn't take you too long."
+	},
+	
+	{
+		name: "Ichorcloth Robes",
+		lore: "Kamui Senk... wait",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Fabrico", "Lux", "Pannus", "Tutamen" ],
+		requirements: [ "artifice:Ichorcloth" ],
+		recipes: { 
+			Ichorcloth_Cowl: "http://puu.sh/65WHM.jpg",
+			Ichorcloth_Robe: "http://puu.sh/65WJc.jpg",
+			Ichorcloth_Leggings: "http://puu.sh/65WKq.jpg",
+			Ichorcloth_Boots: "http://puu.sh/65WLE.jpg"
+		},
+		nature: "Mundane Unbreaking Armor",
+		video: "",
+		description: "You have found how to weave ichorcloth into clothing.<br>These new clothes are about as effective as mundane diamond armor, when it comes to protecting the wearer from damage. However, this cloth is completely unbreakable and will never sustain as much as a scratch."
+	},
+	
+	{
+		name: "Ichorium Wand Caps",
+		lore: "Somewhat like a Steam Sale",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Instrumentum", "Lux", "Metallum", "Praecantatio" ],
+		requirements: [ "artifice:Ichorium" ],
+		recipes: { 
+			Ichorium_Wand_Caps: "http://puu.sh/65YZD.jpg"
+		},
+		nature: "Top-Tier Wand Caps",
+		video: "",
+		description: "You have put Ichorium into it's first ever use, by devising wand caps that give you a 20% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis."
+	},
+	
+	{
+		name: "Ichorcloth Strapped Silverwood Wand Core",
+		lore: "That's a mouthful",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Instrumentum", "Lux", "Metallum", "Praecantatio" ],
+		requirements: [ "artifice:Ichorcloth" ],
+		recipes: { 
+			Ichorcloth_Strapped_Silverwood_Wand_Core: "http://puu.sh/65Zjt.jpg"
+		},
+		nature: "Top-Tier Wand Core",
+		video: "",
+		description: "You have done it. By infusing a silverwood wand core with Ichorcloth, you managed to create the ultimate wand core.<br>This core holds an insane amount of 1000 of each type of vis. This will definitely make creating expensive components a bit less stressful. Now the question lies, where will you get all the vis for this?"
+	},
+	
+	{
+		name: "Bottomless Pouch",
+		lore: "Haha, he said bottom",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Alienis", "Humanus", "Pannus", "Vacuos" ],
+		requirements: [ "artifice:Ichorcloth" ],
+		recipes: { 
+			Bottomless_Pouch: "http://puu.sh/660ya.jpg"
+		},
+		nature: "Mega Backpack",
+		video: "",
+		description: "By infusing a Focus Pouch with items such as the Portable Hole focus, you managed to allow it to not only store more than Foci, but also to have a very extensive storage space.<br>This pouch can not only carry more than four chests, but it also doubles as a standard Focus Pouch, allowing any foci within it to be inserted in a wand like normally. You can kiss your inventory problems goodbye."
+	},
+	
+	{
+		name: "Feline Amulet",
+		lore: "No fighting with cats in the cafeteria",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Cognitio", "Mortuus", "Ordo", "Tenebrae" ],
+		requirements: [ "artifice:Ichorium" ],
+		recipes: { 
+			Feline_Amulet: "http://puu.sh/663gw.jpg"
+		},
+		nature: "Creeper Repelling Amulet",
+		video: "",
+		description: "It didn't take you long to come to the conclusion that you hated all those times a creeper snuck up on you.<br>To that end, using the knowledge you have that creepers run away from cats, you have devised an amulet that by simply being carried on you makes all creepers run in fear of your presence. Not only that, but they'll be petrified to the point of not gathering enough stoke to explode. Great."
+	},
+	
+	{
+		name: "Cowl of the Abyssal Depths",
+		lore: "Just friendly crustaceans",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Aqua", "Auram", "Fames", "Sano" ],
+		requirements: [ "artifice:Ichorcloth Robes" ],
+		recipes: { 
+			Cowl_of_the_Abyssal_Depths: "http://puu.sh/661ap.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Helmet",
+		video: "",
+		description: "You found a way of upgrading the Ichorcloth Cowl into a more powerful form.<br>First and foremost, the cowl doubles as goggles of revealing.<br>Second, the wearer is granted unlimited underwater breath as well as crystal clear underwater vision.<br>Lastly, if one wearing this cowl finds themselves without a full belly, the effects of health restoration still apply, as if that were the case."
+	},
+	
+	{
+		name: "Robes of the Stratosphere",
+		lore: "Guys can wear these too",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Aer", "Alienis", "Motus", "Volatus" ],
+		requirements: [ "artifice:Ichorcloth Robes" ],
+		recipes: { 
+			Robes_of_the_Stratosphere: "http://puu.sh/661Gh.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Robes",
+		video: "",
+		description: "You found a way of upgrading the Ichorcloth Robes into a more powerful form.<br>Starting off, by simply wearing these robes, the wearer is blessed with the power of eternal flight (wings that don't burn after 5 minutes included), as well as having all fall damage negated.<br>The robes also passively protect the wearer from any incoming simple projectiles, akin to the focus of Distortion."
+	},
+	
+	{
+		name: "Leggings of the Burning Mantle",
+		lore: "A warm feeling",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Ignis", "Lucrum", "Potentia", "Sano" ],
+		requirements: [ "artifice:Ichorcloth Robes" ],
+		recipes: { 
+			Leggings_of_the_Burning_Mangle: "http://puu.sh/6628f.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Leggings",
+		video: "",
+		description: "You found a way of upgrading the Ichorcloth Leggings into a more powerful form.<br>These leggings are infused with the soul of fire.<br>For one, they case a light around the holder, brighter than even that of Hyperenergetic Nitor. This also expands to where the wearer is looking, akin to a flashlight, and prevales given the creator's existance in a much extended range.<br>Furthermore, these leggings not only provide fire resistance, but they convert any incoming fire damage into healing."
+	},
+	
+	{
+		name: "Boots of the Horizontal Shield",
+		lore: "From Winterfell to King's Landing in a breeze",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Herba", "Iter", "Perfodio", "Terra" ],
+		requirements: [ "artifice:Ichorcloth Robes" ],
+		recipes: { 
+			Boots_of_the_Horizontal_Shield: "http://puu.sh/662y4.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Boots",
+		video: "",
+		description: "You found a way of upgrading the Ichorcloth boots into a more powerful form.<br>These boots allow for extremely smooth movement, akin to the Boots of the Traveller. The wearer's speed, jump height and jump reach all become magnified by wearing the boots, making movement a breeze. One can also walk on 1 high blocks as if they are slabs, this can be suppressed by sneaking.<br>Wearing the boots also induces a Haste II effect, turns any dirt below them into grass and negates all fall damage."
+	},
+	
+	{
+		name: "Ichorium Tools",
+		lore: "The top tier of rat... tools",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Fabrico", "Instrumentum", "Metallum", "Telum" ],
+		requirements: [ "artifice:Ichorium" ],
+		recipes: { 
+			Ichorium_Pickaxe: "http://puu.sh/66050.jpg",
+			Ichorium_Shovel: "http://puu.sh/66071.jpg",
+			Ichorium_Axe: "http://puu.sh/6608K.jpg",
+			Ichorium_Sword: "http://puu.sh/6609S.jpg"
+		},
+		nature: "Unbreakable Mundane Tools",
+		video: "",
+		description: "You have done it. By infusing a silverwood wand core with Ichorcloth, you managed to create the ultimate wand core.<br>This core holds an insane amount of 1000 of each type of vis. This will definitely make creating expensive components a bit less stressful. Now the question lies, where will you get all the vis for this?"
+	},
+	
+	{
+		name: "Awakened Ichorium Pickaxe",
+		lore: "Who needs a quarry?",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Ignis", "Instrumentum", "Perfodio", "Saxum" ],
+		requirements: [ "artifice:Ichorium Tools" ],
+		recipes: { 
+			Awakened_Ichorium_Pickaxe: "http://puu.sh/664ok.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Pickaxe",
+		video: "",
+		description: "You awakened the real potential of an Ichorium Pickaxe, this pickaxe contains all the traits from the regular one, however, by right clicking on it, you can change what mode it's on.<br>On Block Mode (Green) it'll break blocks normally.<br>On Square Mode (Red) it'll break a 5x5 area around the original block broken.<br>On Line Mode (Blue) it'll break a 10 block long line starting on the original block."
+	},
+	
+	{
+		name: "Awakened Ichorium Shovel",
+		lore: "Gravel no more!",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Instrumentum", "Perfodio", "Terra" ],
+		requirements: [ "artifice:Ichorium Tools" ],
+		recipes: { 
+			Awakened_Ichorium_Shovel: "http://puu.sh/664W0.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Shovel",
+		video: "",
+		description: "You awakened the real potential of an Ichorium Shovel, this shovel contains all the traits from the regular one, however, by right clicking on it, you can change what mode it's on.<br>On Block Mode (Green) it'll break blocks normally.<br>On Square Mode (Red) it'll break a 5x5 area around the original block broken.<br>On Line Mode (Blue) it'll break a column of the same type of block as the one originally broken, 8 blocks above and below."
+	},
+	
+	{
+		name: "Awakened Ichorium Axe",
+		lore: "Cut you like a Clover",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Aqua", "Arbor", "Granum", "Instrumentum" ],
+		requirements: [ "artifice:Ichorium Tools" ],
+		recipes: { 
+			Awakened_Ichorium_Axe: "http://puu.sh/665kb.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Axe",
+		video: "",
+		description: "You awakened the real potential of an Ichorium Axe, this axe contains all the traits from the regular one, however, by right clicking on it, you can change what mode it's on.<br>On Block Mode (Green) it'll break blocks normally.<br>On Square Mode (Red) it'll break a 5x5 area around the original block broken.<br>On Line Mode (Blue) it'll break entire trees simply by cutting down one of their blocks.<br>This axe is also extremely proficient at cutting plant life."
+	},
+	
+	{
+		name: "Awakened Ichorium Sword",
+		lore: "Mom's knife",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Aer", "Fames", "Spiritus", "Telum" ],
+		requirements: [ "artifice:Ichorium Tools" ],
+		recipes: { 
+			Awakened_Ichorium_Sword: "http://puu.sh/665IS.jpg"
+		},
+		nature: "Top-Tier Unbreakable Magical Sword",
+		video: "",
+		description: "You awakened the real potential of an Ichorium Sword, this sword contains all the traits from the regular one, however, by right clicking on it, you can change what mode it's on.<br>On Single Mode (Green) it'll attack mobs normally.<br>On Area Mode (Red) it'll attack all mobs of the same type in a 3 block radius of the attacked one.<br>On Soul Mode (Blue) it'll deal less damage than normally, but every hit will bless the attacker with a Soul Heart.<br>Soul Hearts are hearts that can only be used once. They show up as metallic hearts below your food bar, when existent. They block damage their wielder would take, but disappear in the process."
+	},
+	
+	{
+		name: "Black Hole Talisman",
+		lore: "More pascal than your mind can take",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Alienis", "Praecantatio", "Tenebrae", "Vacuos" ],
+		requirements: [ "artifice:Awakened Ichorium Pickaxe", "artifice: Awakened Ichorium Shovel" ],
+		recipes: { 
+			Black_Hole_Talisman: "http://puu.sh/6669J.jpg"
+		},
+		nature: "Single Block Cold Storage",
+		video: "",
+		description: "This talisman can be set to condense any block, by right clicking with it in world in the type of block you want to have it be set to, when enabled via right click will absorb any excess (over 1 stack) of that block in your inventory, and make sure at least one stack stays there. The contents can be stored in any ingventory by right clicking it, or placed in world as if they were normal blocks.<br>It can store over 2 billion of the same block. Guess cobblestone clogging the space isn't an issue. If the talisman is empty, it can be shift right clicked into another block to change it's binding."
+	},
+	
+	{
+		name: "Worldshaper's Looking Glass",
+		lore: "Eye of Mercury",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Alienis", "Cognitio", "Fabrico", "Vitreus" ],
+		requirements: [ "artifice:Black Hole Talisman" ],
+		recipes: { 
+			Worldshapers_Looking_Glass: "http://puu.sh/666D4.jpg"
+		},
+		nature: "Mass Block Placer",
+		video: "",
+		description: "Through studying the world, you constructed a glass that allows you to place a large array of blocks in the world using the power of your mind.<br>To set a block to place, one would shift-right click this glass in that block. Shift-right clicking the item in the air changes the amount of blocks it'll place.<br>When placing blocks in the world, a phantom visualization of how the blocks will appear is shown. On right click, the blocks will be consumed and placed, either from the inventory, or any Black Hole Talismans that contain the required block."
+	},
+	
+	{
+		name: "Seal of Chest Binding",
+		lore: "What you need, when you need it",
+		mod: "thaumic_exploration",
+		aspects: [ "Alienis", "Iter", "Praecantatio", "Vacuos" ],
+		requirements: [ "alchemy:Magic Tallow", "artifice:Infusion" ],
+		recipes: { 
+			Blank_Seal: "http://puu.sh/66Kh6.jpg",
+			Chest_Binding_Seal: "http://puu.sh/66M2p.jpg"
+		},
+		nature: "Chest Sync Module",
+		video: "",
+		description: "By enchanting a mundane seal made of tallow, you have discovered a way to bind chests, so that they share their contents. These seals can be dyed various colors for sorting purposes, but an unlimited number of bound chest networks can be created.<br>By right clicking on a chest with a chest binding seal, you can create a new network.<br>Right clicking on a bound chest will link the seal to that network. Right clicking on an unbound chest with a linked seal will add that chest to the linked network. Note that only empty chests are able to be bound."
+	},
+	
+	{
+		name: "Seal of Jar Binding",
+		lore: "Essentia, Essentia everywhere",
+		mod: "thaumic_exploration",
+		aspects: [ "Alienis", "Iter", "Praecantatio", "Vacuos" ],
+		requirements: [ "artifice:Seal of Chest Binding" ],
+		recipes: { 
+			Jar_Binding_Seal: "http://puu.sh/66M6R.jpg"
+		},
+		nature: "Jar Sync Module",
+		video: "",
+		description: "By adjusting the infusion of the tallow seal to account for essentia's mystical properties, you have found that you are able to bind essentia containers, in particular, warded jars.<br>Much like your previous binding seals, the jar binding seal can be dyed and an unlimited amount of networks can be created.<br>See your notes on bound chest seals for information on how to create networks. Note that only empty jars are able to be bound. You can not bind void jars or jars with labels."
+	},
+	
+	{
+		name: "Brain Sanitization",
+		lore: "Rejuvenation Ritual",
+		mod: "thaumic_exploration",
+		aspects: [ "Ordo", "Permutatio", "Tutamen" ],
+		requirements: [ "alchemy:Flesh Purification" ],
+		recipes: { },
+		nature: "Magical Crafting Material",
+		video: "",
+		description: "<b>This entry does not have an implemented recipe</b><p>You have discovered that by using a process similar to purifying zombie villagers, you can reverse the effects of zombification on the brain. These cured brains exhibit much more intellectual capacity than their diseased counterparts, so you hope they will prove useful in future creations. The brains also serve as a bait for zombified creatures, when dropped or placed on an arcane pedestal."
+	},
+	
+	{
+		name: "Wand Focus: Shadowbeam",
+		lore: "Guarded by an Old Man",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Alienis", "Praecantatio", "Tenebrae", "Vitium" ],
+		requirements: [ "artifice:Ichorcloth Strapped Silverwood Wand Core" ],
+		recipes: { 
+			Wand_Focus_Shadowbeam: "http://puu.sh/6gB44.jpg"
+		},
+		nature: "Laseeeers",
+		video: "",
+		description: "You created a focus that shoots a beam of energy, damaging anything in it's path while it's being fired.<br>The beam has a decent range and will reflect off any blocks it hits as if they were mirrors."
+	},
+	
+	{
+		name: "Wand Focus: Experience Drain",
+		lore: "Environmentally friendly Vis",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Auram", "Cognitio", "Humanus", "Praecantatio" ],
+		requirements: [ "artifice:Ichorcloth Strapped Silverwood Wand Core" ],
+		recipes: { 
+			Wand_Focus_Experience_Drain: "http://puu.sh/6gBca.jpg"
+		},
+		nature: "EXP to Vis conversion",
+		video: "",
+		description: "After creating a wand that can have an insane amount of vis, you got to the conclusion that you need an alternate source of vis.<br>To that end, you created a focus that draws from your Experience pool, turning it into vis at a fast but now very efficient rate."
+	},
+	
+	{
+		name: "Protoclay",
+		lore: "Stolen from the Creation",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Humanus", "Instrumentum", "Machina", "Perfodio" ],
+		requirements: [ "artifice:Awakened Ichorium Pickaxe", "artifice:Awakened Ichorium Shovel" ],
+		recipes: { 
+			Protoclay: "http://puu.sh/6gBlC.jpg"
+		},
+		nature: "Dynamic Tool Swapping",
+		video: "",
+		description: "You grew tired of having to constantly swap your tools.<br>This mixture will, by melding with the Ichorium, switch any Awakened Ichorium tools being held by the one used for the block being pointed at, case one tries to break it with the wrong tool.<br>As an example, trying to break a dirt block with an Awakened Ichorium Pickaxe while a shovel is present elsewhere in the inventory will swap the two, and allow for fast disposal of the dirst block."
+	},
+	
+	{
+		name: "Celestial Gateway",
+		lore: "EM Wave Change",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Alienis", "Iter", "Machina", "Volatus" ],
+		requirements: [ "artifice:Robes of the Stratosphere", "artifice:Boots of the Horizontal Shield" ],
+		recipes: { 
+			Celestial_Gateway: "http://puu.sh/6gBCf.jpg",
+			Celestial_Pearl: "http://puu.sh/6gBPv.jpg"
+		},
+		nature: "Teleportation Network",
+		video: "",
+		description: "You devised a complex mechanism that allows to displace your own position in the world. This block, when containing Celestial Pearls, will allow for teleportation to various spots in the world.<br>A grand total of 10 spots can be set. You can prevent other Gateways from connecting to this one by toggling it in the block's GUI (accessible by rightclick).<br>To access the list of possible destinations, sneak above the block.<p>In order for locations to be set in the gateway, they must be marked with Celestial Pearls. These items can be shift-right clicked into a Celestial Gateway to mark it's location (note, shift-right click on air to clear the location).<br>Placing the pearls inside a celestial gateway opens access to teleport to the one it's bound to. This teleport is one way and two pearls must be used for a 2 way transport.<br>Naming these pearls with the use of an Anvil will make the names appear in the Gateway's GUI, for easy labeling."
+	},
+	
+	{
+		name: "Wand Focus: Celestial Recall",
+		lore: "Home is where the Hearthstone is",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [ "Alienis", "Iter", "Praecantatio", "Volatus" ],
+		requirements: [ "artifice:Celestial Gateway", "artifice:Ichorcloth Strapped Silverwood Wand Core" ],
+		recipes: { 
+			Wand_Focus_Celestial_Recall: "http://puu.sh/6gChQ.jpg"
+		},
+		nature: "Teleportation Focus",
+		video: "",
+		description: "While using Celestial Gateways for teleportation is all well and good, you decided to take it a step further and create a focus that allows you to do just that, but from anywhere.<br>This focus, in the presence of a properly bound Celestial Pearl in the caster's hotbar, will, after a short cast time, teleport the caster to that position, just as if they had used a Celestial Gateway. Of course, this comes at a vis cost."
+	},
 
 ];

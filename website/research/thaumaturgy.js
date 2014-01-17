@@ -462,4 +462,17 @@ var research_thaumaturgy = [
 		video: "",
 		description: "The fruits of long hours of experimenting, resource collecting and a significantly amount of flux goo and gas cleanup, explosions, lightning zaps and disintegrated caps gleams before you in all it's remarkable glory. The Mercurial Wand, capable of storing enough vis to last the entire day. Not only that, the wand can be enhanced and upgraded via various other infusion recipes.<hr>''At last, it is done, and it is a breathtaking thing to behold. Sunlight glints off the gleaming crystal rand, and reflects sharply off the solidified quicksilver inlaid in intricate patterns upon the handle. I am the envy of thaumaturgists everywhere, but I will not hoard this knowledge to myself. Discoveries such as this can benefit everyone, and I am no knowledge hoarder.''"
 	},
+	
+	{
+		name: "Amber Wand Core",
+		lore: "Regenerative vis storage",
+		mod: "thaumic_exploration",
+		aspects: [ "Ordo", "Permutatio", "Tutamen" ],
+		requirements: [ "thaumaturgy:Bone Wand Core", "thaumaturgy:Reed Wand Core", "thaumaturgy:Blaze Wand Core", "thaumaturgy:Obsidian Wand Core", "thaumaturgy:Icy Wand Core", "thaumaturgy:Quartz Wand Core" ],
+		recipes: {},
+		nature: "Vis Regenerating Wand Core",
+		video: "",
+		description: "<b>This entry does not have an implemented recipe</b><p>You have finally found a practical use for amber, in the form of a wand core. Amber wand cores seem to store a fleeting memory system of vis when empty. By harnessing this memiry tou have created a wand core that can replenish all forms of vis at a slow rate when below 10% capacity. While many of the other wand cores you have created have had regenerative properties, the amber core regenerates at twice the rate. In addition, the amber wand core boasts a larger storage capacity than that of greatwood cores."
+	},
+	
 ];

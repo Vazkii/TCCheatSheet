@@ -300,11 +300,24 @@ var research_basic = [
 		aspects: [ "Auram", "Praecantatio", "Sensus" ],
 		requirements: [ "basic:Node in a Jar" ],
 		recipes: {
-			Node_Modifier: "http://puu.sh/61xYX.jpg"
+			Node_Modifier: "http://puu.sh/61xYX.jpg",
+			Mystical_Construct: "http://puu.sh/6gEDF.jpg"
 		},
 		nature: "Aura Node Manipulator",
 		video: "",
-		description: "After intently studying and experimenting with the relationship between vis and essentia, you have deduced a method to change the very nature of aura nodes. Simple place the proper type of essentia nearby, place a jarred node on top of the modifier, and tap with a wand.<hr>''I knew it! They are not all lost! While the practice of jarring nodes more often than not tends to waken them to the point of being nearly useless, they are still salvagable, albeit with massive amounts of essentia. I find that Granum tends to quell a hungry node, while Lux will brighten both a pale node back to normal, as well as a normal node to bright. It will also chase away the darkness inside a Dark node. Tainted nodes can be clensed with ordo, and it also strengthens a fading node back to normal. I suspect that with more work, I can expend a node's max capacity. Brilliant!''"
+		description: "After intently studying and experimenting with the relationship between vis and essentia, you have deduced a method to change the very nature of aura nodes. Simply place the required essentia nearby, then place the required essences on nearby pedestals. Finallt take a jarred node on the modifier and right click the modifier to open the GUI. Essentia and essence types can be viewed by selecting an operation.<br>Pedestal placement must be within 4 blocks, but is not required to be symmetrical like the infusion altar pedestals. An example setup is provided on the Mystical Construct Page.<hr>''I knew it! They are not all lost! While the practice of jarring nodes more often than not tends to waken them to the point of being nearly useless, they are still salvagable, albeit with massive amounts of essentia. I find that Granum tends to quell a hungry node, while Lux will brighten both a pale node back to normal, as well as a normal node to bright. It will also chase away the darkness inside a Dark node. Tainted nodes can be clensed with ordo, and it also strengthens a fading node back to normal. I suspect that with more work, I can expend a node's max capacity. Brilliant!''"
+	},
+	
+	{
+		name: "Dimensional Shards",
+		lore: "Rarities of the Otherworld",
+		mod: "thaumic_tinkerer_kami",
+		aspects: [],
+		requirements: [],
+		recipes: {},
+		nature: "Rare Magical Crafting Materials",
+		video: "",
+		description: "Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End. They might be useful for something later on, although you're not quite sure how.<p><img src='http://puu.sh/65Uiv.jpg'>"
 	},
 
 ];
