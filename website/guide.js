@@ -224,7 +224,7 @@ function setAspect(aspect, setHash) {
 	currentAspect = aspect;
 	
 	if(aspect.length == 0) {
-		$("#aspect_box").html("<br><p align='center'>(Click an aspect in the index to see it's components)</p><br>");
+		$("#aspect_box").html("<br><p align='center'>(Click an aspect in the index to see its components)</p><br>");
 		return;
 	}
 
@@ -308,7 +308,7 @@ function setAspectText() {
 		++i;
 	}
 		
-	text += "</div><br><hr><div id='aspect_box'><br><p align='center'>(Click an aspect in the index to see it's components)</p><br></div>";
+	text += "</div><br><hr><div id='aspect_box'><br><p align='center'>(Click an aspect in the index to see its components)</p><br></div>";
 	aspectsTabText = text;
 }
 
